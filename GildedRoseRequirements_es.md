@@ -19,7 +19,7 @@ Bastante simple, ¿no? Bueno, ahora es donde se pone interesante:
 - La `calidad` de un artículo nunca es negativa
 - El "Queso Brie envejecido" (`Aged brie`) incrementa su calidad (`Quality`) a medida que madura con los días
   - Su calidad (`Quality`) aumenta en `1` unidad cada día
-  - Una vez expirada la fecha de venta (`SellIn`) su calidad (`Quality`) aumenta el doble día
+  - Una vez expirada la fecha de venta (`SellIn`) su calidad (`Quality`) aumenta el doble al día
 - La calidad de un artículo (`Quality`) no puede superar `50`
 - El artículo `Sulfuras`, es un artículo legendario, no necesitamos venderlo en ninguna fecha (`SellIn`) y tampoco se degrada en (`Quality`)
 - El artículo "Entrada al Backstage" (`Backstage passes`), incrementa su valor (`Quality`) a medida que acerca la fecha del concierto (`SellIn`)
